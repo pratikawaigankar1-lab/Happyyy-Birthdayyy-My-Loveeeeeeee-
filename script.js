@@ -29,7 +29,10 @@ unlockBtn.addEventListener("click",()=>{
   document.getElementById("passwordInput")
   .value;
 
-  if(password === "12 January 2025"){
+  if(
+password.trim().toLowerCase()
+=== "12 january 2025"
+){
 
     document.getElementById(
       "password-screen"
@@ -179,7 +182,7 @@ feel loved the most,
 and enjoy every second of your special day.
 
 Happy Birthday once again
-to my most favorite person anddd biggesst gift given by god to meeee 🎀❤️`;
+to my most favorite person anddd one of the most precious gifts God has ever placed in my life 🎀❤️`;
 
 const textElement =
 document.getElementById("typewriter-text");
@@ -213,20 +216,20 @@ document.querySelector(".floating-texts");
 
 const loveMessages = [
 
-  "Khushhiiiii ❤️",
-  "Khusshhuuu 🎀",
-  "My Lovveeee 💖",
-  "Jaaannn ✨",
-  "Princessss 👑",
-  "Panda Forever 🐼",
-  "Your Smile >>> 🌸",
-  "I Love Your Laugh 😭",
-  "Cutest Girl Alive 💕",
-  "You Make Me Happy ❤️",
-  "My Favorite Person 🎀",
-  "Pretty Eyes ✨",
-  "Soft Heart 💖",
-  "Forever My Panda 🐼"
+"Thank you for existing ❤️",
+"Khushhiii 🌸",
+"My favorite person 🎀",
+"You make life beautiful ✨",
+"My Panda 🐼",
+"Forever grateful for you ❤️",
+"Your smile >>> 🌷",
+"My Princess 👑",
+"Still my favorite girl 💖",
+"My jaan ❤️",
+"You are special ✨",
+"You deserve the world 🌸",
+"God's beautiful gift 🎀",
+"You're my comfort person ❤️"
 
 ];
 
